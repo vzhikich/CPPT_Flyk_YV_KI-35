@@ -1,4 +1,4 @@
-public class FlykKI35 {
+public class FlykYEvheniiKI35 {
     public static void main(String[] args)
     {
         String _student = new String();
