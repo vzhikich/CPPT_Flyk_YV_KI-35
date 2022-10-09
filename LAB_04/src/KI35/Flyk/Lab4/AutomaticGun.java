@@ -2,10 +2,9 @@
  * lab 3 package
  */
 
-package KI35.Flyk.Lab3;
+package KI35.Flyk.Lab4;
 
 import java.io.*;
-import java.util.SortedMap;
 
 /**
  * Class <code>AutomaticGun</code> implements automatic gun
@@ -14,37 +13,30 @@ import java.util.SortedMap;
  */
 
 
-public class AutomaticGun {
+public abstract class AutomaticGun {
     public static int count;
     private Magazine m_magazine;
     private Fuse m_fuse;
     private Barrel m_barrel;
 
-
-    private PrintWriter fout;
     /**
      * Constructor
-     * @throws FileNotFoundException
      */
-    public AutomaticGun()throws FileNotFoundException {
+    public AutomaticGun(){
         m_magazine =new Magazine();
         m_fuse = new Fuse();
         m_barrel = new Barrel();
-
-        fout = new PrintWriter(new File("Log.txt"));
     }
     /**
      * Constructor
      * @param _length Length of barrel
      * @param _caliber Caliber of barrel
-     * @throws FileNotFoundException
      */
-    public AutomaticGun(int _length,float _caliber)throws FileNotFoundException{
+    public AutomaticGun(int _length,float _caliber){
         m_magazine =new Magazine();
         m_fuse= new Fuse();
         m_barrel =new Barrel(_length,_caliber);
 
-        fout = new PrintWriter(new File("Log.txt"));
         count++;
     }
     /**
@@ -59,8 +51,6 @@ public class AutomaticGun {
     public void ReloadAutomaticGun(){
         m_magazine.load();
         m_magazine.setAmmunition(30);
-        fout.println("New state of magazine: " + m_magazine.isInserted());
-        fout.println("New numbers of ammunition in magazine: " + m_magazine.getAmmunition());
         System.out.println("RELOAD!!!");
     }
     /**
@@ -70,7 +60,6 @@ public class AutomaticGun {
         if(m_magazine.getAmmunition()>0 && !m_fuse.isState()){
             m_magazine.reduction();
 
-            fout.println("New numbers of ammunition in magazine: " + m_magazine.getAmmunition());
             System.out.println("SHOOT!!!");
         }else
         {
@@ -91,7 +80,7 @@ public class AutomaticGun {
             for(int i=0;i<3;++i) {
                 m_magazine.reduction();
 
-                fout.println("New numbers of ammunition in magazine: " + m_magazine.getAmmunition());
+
                 System.out.println("SHOOT!!!");
             }
         }else
@@ -112,7 +101,7 @@ public class AutomaticGun {
         if(!m_fuse.isState()){
             m_fuse.setState(true);
 
-            fout.println("New state of fuse: " + m_magazine.isInserted());
+
             System.out.println("Fuse switching!!!");
         }
         else{
@@ -127,7 +116,7 @@ public class AutomaticGun {
         if(m_fuse.isState()){
             m_fuse.setState(false);
 
-            fout.println("New state of fuse: " + m_magazine.isInserted());
+
             System.out.println("Fuse switching!!!");
         }
         else{
@@ -144,8 +133,6 @@ public class AutomaticGun {
         m_barrel.setLength(_length);
         m_barrel.setCaliber(_caliber);
 
-        fout.println("New length of barrel: " + m_barrel.getLength());
-        fout.println("New caliber of barrel: " + m_barrel.getCaliber());
     }
     /**
      * Method implements printing information about gun
@@ -166,10 +153,6 @@ public class AutomaticGun {
         m_magazine.setAmmunition(_ammunition);
         m_magazine.setInserted(_state);
 
-        fout.println("New state of magazine: " + m_magazine.isInserted());
-        fout.println("New numbers of ammunition in magazine: " + m_magazine.getAmmunition());
-
-
     }
     /**
      * Method implements set of fuse
@@ -178,14 +161,8 @@ public class AutomaticGun {
     public void SetFuse(boolean _state){
         m_fuse.setState(_state);
 
-        fout.println("New state of fuse: " + m_fuse.isState());
     }
 
-
-    public void dispose()
-    {
-        fout.close();
-    }
 }
 /**
  * Class <code>Magazine</code> implements magazine

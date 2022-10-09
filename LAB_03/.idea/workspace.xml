@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abdf5847-3ff4-4e26-9e22-8d8b1f53531b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB_03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGunApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_04/LAB_04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_04/src/KI35/Flyk/Lab4/AutomaticGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_04/src/KI35/Flyk/Lab4/RifleGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_04/src/KI35/Flyk/Lab4/ScoreSight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_02/LAB_02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_02/LAB_02.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_02/src/Lab2FlykKI35.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_02/src/Lab2FlykKI35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGunApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +87,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGun.java</url>
-          <line>291</line>
+          <line>298</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

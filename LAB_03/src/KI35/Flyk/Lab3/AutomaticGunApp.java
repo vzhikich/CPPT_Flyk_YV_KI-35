@@ -17,8 +17,17 @@ public class AutomaticGunApp {
      * @throws FileNotFoundException
      */
     public static void main(String[] args) throws FileNotFoundException{
+       // out.println("Number of calls to the constructor with parameters: " + AutomaticGun.count);
         AutomaticGun rifle = new AutomaticGun();
-        rifle.SwitchOnFuse();
+        AutomaticGun rifle2 =new AutomaticGun();
+
+        AutomaticGun par_rifle = new AutomaticGun(305, (float) 24.4);
+        AutomaticGun par_rifle2 = new AutomaticGun(405,(float) 44.4);
+        AutomaticGun par_rifle3 = new AutomaticGun(304,(float) 22.1);
+
+        out.println("Number of calls to the constructor with parameters: " + AutomaticGun.count);
+
+        /*rifle.SwitchOnFuse();
 
         rifle.SingleFiring();
 
@@ -39,6 +48,6 @@ public class AutomaticGunApp {
         out.println("\n");
         rifle.PrintGun();
 
-        rifle.dispose();
+        rifle.dispose();*/
     }
 }

@@ -17,8 +17,6 @@ public class Lab2FlykKI35 {
      * @throws FileNotFoundException
      *
      */
-    public Lab2FlykKI35() {
-    }
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner in = new Scanner(System.in);
@@ -40,6 +38,11 @@ public class Lab2FlykKI35 {
         String character = in.nextLine();
         character = in.nextLine();
 
+        //System.out.println("Enter a second placeholder character: ");
+        //String character2 = in.nextLine();
+        //character2 = in.nextLine();
+
+
         label54:
         for(int i = 0; i < size; ++i) {
             int chIt;
@@ -52,8 +55,13 @@ public class Lab2FlykKI35 {
                     }
                     break label54;
                 }
+                arr[i][chIt] = (char) character.codePointAt(0);
+                if(i==size/2){
+                    if(chIt%2==1){
 
-                arr[i][chIt] = (char)character.codePointAt(0);
+                        arr[i][chIt] ='o';
+                    }
+                }
             }
 
             for(chIt = 0; chIt < size - arr[i].length; ++chIt) {
