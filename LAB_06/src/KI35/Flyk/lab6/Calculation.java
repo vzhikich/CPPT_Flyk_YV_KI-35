@@ -93,6 +93,7 @@ public class Calculation {
 
             if (result==Double.NaN || result==Double.NEGATIVE_INFINITY || result==Double.POSITIVE_INFINITY || X*4==90 || X*4== -90|| X==0)
                 throw new ArithmeticException();
+            result = result/X;
         }
         catch(ArithmeticException ex){
             if (radian == Math.PI/2.0 || radian == -Math.PI/2.0)
