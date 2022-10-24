@@ -24,23 +24,34 @@ public class EquationsApp {
             Scanner in = new Scanner(System.in);
             String fName = in.nextLine();
             PrintWriter fout = new PrintWriter(new File(fName));
+
+            out.print("Enter X: ");
+            double X = in.nextDouble();
+
             try
             {
                 try
                 {
                     Equations eq = new Equations();
-                    out.print("Enter X: ");
-                    fout.print(eq.calculator(in.nextDouble()));
+                    if(X==90)
+                        throw new MyException();
+                    fout.print(eq.calculator(X));
+                }
+                catch (MyException ex){
+                    out.print(ex.toString());
                 }
                 finally
                 {
                     fout.flush();
                     fout.close();
                 }
+
+
             }
             catch (CalcException ex)
             {
                 out.print(ex.getMessage());
+
             }
         }
         catch (FileNotFoundException ex)

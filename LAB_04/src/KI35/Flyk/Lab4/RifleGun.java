@@ -16,11 +16,22 @@ interface ScoreChoice{
 }
 
 /**
+ *
+ */
+interface ReductionScore{
+    void reductionScore ();
+}
+/**
+ *
+ *
+ */
+
+/**
  * Class <code>RifleGun</code> implements rifle gun
  * @author Flyk Yevhenii
  * @version 1.0
  */
-public class RifleGun extends AutomaticGun implements ScoreChoice{
+public class RifleGun extends AutomaticGun implements ScoreChoice , ReductionScore {
     //object ScoreSight
     private ScoreSight scoreSight;
 

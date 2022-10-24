@@ -44,7 +44,7 @@ public class Calculation {
                 s.close();
             }
             else
-                throw new FileNotFoundException("File " + fName + "not found");
+                throw new FileNotFoundException("File " + fName + " not found\n");
         }
         catch (FileNotFoundException ex)
         {

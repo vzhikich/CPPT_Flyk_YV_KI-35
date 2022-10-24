@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f956a2c8-3415-44d9-8403-a8db6788febd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LAB_07/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_07/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_07/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_07/LAB_07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_07/src/Suitcase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KI35/Flyk/Lab4/RifleGun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KI35/Flyk/Lab4/RifleGun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,5 +70,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KI35/Flyk/Lab4/RifleGun.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

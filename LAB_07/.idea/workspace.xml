@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6653aee4-0527-4405-8602-99a456884597" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB_07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Suitcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_05/11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_05/111" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_05/src/KI35/Flyk/lab5/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KI35/Flyk/lab7/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KI35/Flyk/lab7/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KI35/Flyk/lab7/Laptops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KI35/Flyk/lab7/Thing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KI35/Flyk/lab7/Towels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_04/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_04/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_04/src/KI35/Flyk/Lab4/RifleGun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_04/src/KI35/Flyk/Lab4/RifleGun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_05/src/KI35/Flyk/lab5/EquationsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_05/src/KI35/Flyk/lab5/EquationsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_06/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_06/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_06/BinRes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_06/BinRes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_06/src/KI35/Flyk/lab6/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_06/src/KI35/Flyk/lab6/Calculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_06/src/KI35/Flyk/lab6/CalculationApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_06/src/KI35/Flyk/lab6/CalculationApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_06/textRes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_06/textRes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Suitcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KI35/Flyk/lab7/Suitcase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +42,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2GL68dE21ndmXn9MuDdUS1TkPYv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,14 +53,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

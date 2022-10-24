@@ -13,12 +13,13 @@ import static java.lang.System.out;
         */
 public class CalculationApp {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, FileNotFoundException {
         boolean IsCatched = true;
         Calculation obj = new Calculation();
         Scanner s = new Scanner(System.in);
         System.out.print("Enter data: ");
         double data = s.nextDouble();
+
         try
         {
             obj.calculate(data);
@@ -28,17 +29,16 @@ public class CalculationApp {
             IsCatched = false;
             System.out.println(ex.getMessage());
         }
+        if (IsCatched) {
+                System.out.println("Result is: " + obj.getResult());
+                obj.writeResTxt("textRes.txt");
+                obj.writeResBin("BinRes.bin");
 
-        if(IsCatched) {
-            System.out.println("Result is: " + obj.getResult());
-            obj.writeResTxt("textRes.txt");
-            obj.writeResBin("BinRes.bin");
-
-            obj.readResBin("BinRes.bin");
-            System.out.println("Result is(read from bin): " + obj.getResult());
-            obj.readResTxt("textRes.txt");
-            System.out.println("Result is(read from txt): " + obj.getResult());
-        }
+                obj.readResBin("BinRes.bin");
+                System.out.println("Result is(read from bin): " + obj.getResult());
+                obj.readResTxt("text1Res.txt");
+                System.out.println("Result is(read from txt): " + obj.getResult());
+            }
 
     }
 }
