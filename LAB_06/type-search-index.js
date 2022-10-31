@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI35.Flyk.lab6","l":"CalcException"},{"p":"KI35.Flyk.lab6","l":"Calculation"},{"p":"KI35.Flyk.lab6","l":"CalculationApp"}];updateSearchResults();

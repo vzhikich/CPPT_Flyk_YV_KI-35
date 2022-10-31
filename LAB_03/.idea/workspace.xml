@@ -5,22 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abdf5847-3ff4-4e26-9e22-8d8b1f53531b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_04/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_04/LAB_04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_04/src/KI35/Flyk/Lab4/AutomaticGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_04/src/KI35/Flyk/Lab4/RifleGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LAB_04/src/KI35/Flyk/Lab4/ScoreSight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KI35/Flyk/Lab3/AutomaticGun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KI35/Flyk/Lab3/AutomaticGunApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KI35/Flyk/Lab3/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KI35/Flyk/Lab3/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_02/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LAB_02/LAB_02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_02/LAB_02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LAB_02/src/Lab2FlykKI35.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_02/src/Lab2FlykKI35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KI35/Flyk/Lab3/AutomaticGunApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_07/src/KI35/Flyk/lab7/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_07/src/KI35/Flyk/lab7/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_07/src/KI35/Flyk/lab7/Clothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_07/src/KI35/Flyk/lab7/Clothes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_07/src/KI35/Flyk/lab7/Laptops.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_07/src/KI35/Flyk/lab7/Laptops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_07/src/KI35/Flyk/lab7/Towels.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_07/src/KI35/Flyk/lab7/Towels.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

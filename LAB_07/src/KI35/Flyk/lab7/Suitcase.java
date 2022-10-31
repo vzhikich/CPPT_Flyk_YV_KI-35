@@ -15,7 +15,6 @@ public class Suitcase<T extends Thing>  {
     /**
      * Method returns an item by the index
      * @param index Element index
-     * @throws Exception
      */
     public T get(int index)
     {

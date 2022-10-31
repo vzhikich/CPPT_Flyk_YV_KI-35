@@ -56,12 +56,7 @@ public class Lab2FlykKI35 {
                     break label54;
                 }
                 arr[i][chIt] = (char) character.codePointAt(0);
-                if(i==size/2){
-                    if(chIt%2==1){
 
-                        arr[i][chIt] ='o';
-                    }
-                }
             }
 
             for(chIt = 0; chIt < size - arr[i].length; ++chIt) {

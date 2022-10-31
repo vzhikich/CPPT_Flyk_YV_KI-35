@@ -33,12 +33,7 @@ public class EquationsApp {
                 try
                 {
                     Equations eq = new Equations();
-                    if(X==90)
-                        throw new MyException();
                     fout.print(eq.calculator(X));
-                }
-                catch (MyException ex){
-                    out.print(ex.toString());
                 }
                 finally
                 {

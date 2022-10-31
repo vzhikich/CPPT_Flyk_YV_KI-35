@@ -21,10 +21,6 @@ interface ScoreChoice{
 interface ReductionScore{
     void reductionScore ();
 }
-/**
- *
- *
- */
 
 /**
  * Class <code>RifleGun</code> implements rifle gun
@@ -45,9 +41,9 @@ public class RifleGun extends AutomaticGun implements ScoreChoice , ReductionSco
 
     /**
      * Constructor
-     * @param _length
-     * @param _caliber
-     * @param _scoreSight
+     * @param _length length of barrel
+     * @param _caliber caliber of barrel
+     * @param _scoreSight current scoreSight
      */
     public RifleGun(int _length, float _caliber, ScoreSight _scoreSight)  {
         super(_length, _caliber);
@@ -64,7 +60,7 @@ public class RifleGun extends AutomaticGun implements ScoreChoice , ReductionSco
 
     /**
      * Method which set scoreSight
-     * @param scoreSight
+     * @param scoreSight current scoreSight
      */
     public void setScoreSight(ScoreSight scoreSight) {
         this.scoreSight = scoreSight;
@@ -103,7 +99,7 @@ public class RifleGun extends AutomaticGun implements ScoreChoice , ReductionSco
 
     /**
      * Method that implements the prototype of the method declared in the interface
-     * @param _scoreSight
+     * @param _scoreSight current scoresight
      */
     public void scoreChoice(ScoreSight _scoreSight){
         scoreSight=_scoreSight;

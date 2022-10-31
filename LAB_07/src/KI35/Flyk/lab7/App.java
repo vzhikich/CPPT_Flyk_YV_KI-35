@@ -18,7 +18,7 @@ public class App {
         Suitcase suitcase = new Suitcase();
 
         suitcase.add(new Clothes(50,  "Pants"));
-        suitcase.add(new Laptops(500,  "LaptopHP"));
+        //suitcase.add(new Laptops(500,  "LaptopHP"));
         suitcase.add(new Laptops(550,  "LaptopLenovo"));
         suitcase.add(new Towels(100, "Towel"));
         suitcase.add(new Clothes(100, "T-Shirt"));
@@ -31,7 +31,7 @@ public class App {
 
         System.out.println(suitcase.getFruitWithMaxWeight().getName());
         System.out.println(suitcase.getTotalWeight());
-
+        System.out.println("\nNumber of Clothes: "+Clothes.countCl + "\nNumber of Laptops: "+ Laptops.countLap);
     }
 
 

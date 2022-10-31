@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI35.Flyk.Lab3","l":"AutomaticGun"},{"p":"KI35.Flyk.Lab3","l":"AutomaticGunApp"}];updateSearchResults();

@@ -9,13 +9,17 @@ package KI35.Flyk.lab7;
  * @version 1.0
  */
 public class Laptops extends Thing {
+    public static int countLap;
     /**
      * Constructor
      * @param weight Thing weight
      * @param name Thing name
      */
+
     public Laptops(int weight, String name)
     {
         super(weight, name);
+
+        ++countLap;
     }
 }

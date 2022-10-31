@@ -14,12 +14,15 @@ import java.io.FileNotFoundException;
  */
 public class RifleGunApp {
     /**
-     * @param args
-     * @throws FileNotFoundException
+     * @param args args
      */
     public static void main(String[] args){
         RifleGun rifle = new RifleGun();
-
+        rifle.SwitchOffFuse();
+        rifle.BurstFiring();
+        rifle.ReloadAutomaticGun();
+        rifle.SwitchOnFuse();
+        rifle.getScoreSight();
         rifle.magnification();
 
     }
